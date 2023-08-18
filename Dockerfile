@@ -1,5 +1,5 @@
 FROM wordpress:latest
-WORKDIR app
+WORKDIR 
 COPY ./app
 RUN docker-compose up -d
 EXPOSE 80
